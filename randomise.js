@@ -7,7 +7,7 @@ let dinner = ["Baked Feta Pasta", "One-Pan Creamy Chicken & Gnocchi", "Classic S
 //console.log(breakfast);
 
 function randomMessage() {
-    return `You're meal planner for the day is the following:\n
+    return `You're suggested meals for the day is the following:\n
     Breakfast:- ${breakfast[Math.floor(Math.random() * 15)]}.\n
     Lunch:- ${lunch[Math.floor(Math.random() * 15)]}.\n
     Dinner:- ${dinner[Math.floor(Math.random() * 15)]}.`
