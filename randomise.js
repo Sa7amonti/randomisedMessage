@@ -4,4 +4,13 @@ let lunch = ["Buddha Bowls", "Mediterranean Chickpea Salad", "Buffalo Chicken Wr
 
 let dinner = ["Baked Feta Pasta", "One-Pan Creamy Chicken & Gnocchi", "Classic Stuffed Peppers", "Air Fryer Pork Chops", "Black Bean Tostadas", "Honey Garlic Glazed Salmon", "Bucatini all'Amatriciana", "Copycat Chicken Lettuce Wraps", "Homemade Crunchwrap Supreme", "BBQ Chicken Twice-Baked Potatoes", "Sheet-Pan Lemon Butter Chicken Thighs", "Shrimp & Snow Pea Stir Fry", "Slow-Cooker Chicken Posole", "TikTok Ramen", "Coconut Curry Salmon"];
 
-console.log(breakfast);
+//console.log(breakfast);
+
+function randomMessage() {
+    return `You're meal planner for the day is the following:\n
+    Breakfast:- ${breakfast[Math.floor(Math.random() * 15)]}.\n
+    Lunch:- ${lunch[Math.floor(Math.random() * 15)]}.\n
+    Dinner:- ${dinner[Math.floor(Math.random() * 15)]}.`
+}
+
+console.log(randomMessage());
